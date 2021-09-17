@@ -3,12 +3,10 @@ h1 {
   font-size: 100px;
   color: red;
 }
-h1:hover {
-  background-color: ghostwhite;
-}
-
+h1:hover,
 p:hover {
   background-color: ghostwhite;
+  color: #000000;
 }
 
 /* Importado da Alura */
@@ -16,7 +14,7 @@ p:hover {
 body {
   font-family: "Roboto Mono", monospace;
   min-height: 400px;
-  background-image: url("https://image.flaticon.com/icons/png/512/201/201635.png");
+  background-image: url("https://c.tenor.com/mJG-jgDFw7oAAAAM/crash-bandicoot-dance.gif");
   background-color: #000000;
   background-size: 80vh;
   background-position: center bottom;
@@ -34,7 +32,11 @@ body {
   margin: 0 0 5px;
 }
 
-.page-subtitle {
+.page-subtitle,
+#page-grades,
+#page-final-grade {
+  font-size: 16pt;
+  background-color: #111111;
   color: #ffffff;
   margin-top: 5px;
 }
