@@ -7,3 +7,4 @@ Link de acesso: https://ledragox.github.io/imersao-dev-2021/
 | Projeto                        |                   Link                   |
 | :----------------------------- | :--------------------------------------: |
 | _Calculadora de média (13/09)_ | [>> Link <<](./src/calculadora-de-media) |
+| _Conversor de moedas (14/09)_  | [>> Link <<](./src/conversor-de-moedas)  |
