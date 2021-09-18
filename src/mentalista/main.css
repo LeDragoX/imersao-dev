@@ -42,6 +42,7 @@ body {
 }
 
 input {
+  width: 100px;
   margin: 4px;
   padding: 6px;
   border-radius: 5px;
@@ -51,10 +52,11 @@ button {
   margin-top: 12px;
   padding: 4px 8px;
   border-radius: 10px;
-  background: #ffffff;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 .resultado {
+  background-color: rgba(0, 212, 255, 0.5);
   color: #ffffff;
   text-align: center;
   margin-top: 16px;
