@@ -1,3 +1,9 @@
+p > a {
+  margin: 5px;
+}
+
+/* Importado da Alura */
+
 body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
