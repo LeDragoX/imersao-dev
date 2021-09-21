@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   min-height: 854px;
-  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png");
+  background-image: url("https://images5.alphacoders.com/985/thumb-1920-985499.jpg");
   background-color: #000000;
   background-size: cover;
   background-position: center top;
@@ -10,6 +10,7 @@ body {
 }
 
 .container {
+  background: rgba(0, 0, 0, 0.3);
   text-align: center;
   padding: 20px;
 }

@@ -12,4 +12,4 @@ Link de acesso: [https://ledragox.github.io/imersao-dev-2021/](https://ledragox.
 |                  _Aluraflix (16/09)_ |        [>> Link <<](./src/aluraflix/)        |
 |              _Aluraflix 2.0 (17/09)_ |       [>> Link <<](./src/aluraflix-2/)       |
 | ⭐ _Tabela de Classificação (20/09)_ | [>> Link <<](./src/tabela-de-classificacao/) |
-|               _Super Trunfo (20/09)_ |      [>> Link <<](./src/super-trunfo/)       |
+|               _Super Trunfo (21/09)_ |      [>> Link <<](./src/super-trunfo/)       |
