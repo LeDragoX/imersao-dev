@@ -75,7 +75,7 @@ button {
   padding: 3px 50px 3px 50px;
   color: #ffffff;
 
-  border-radius: 35% 35% 35% 35%;
+  border-radius: 25px;
   border-color: #202020;
   background: linear-gradient(180deg, #919191 0%, #404040 50%, #393939 100%);
 }
