@@ -1,7 +1,7 @@
 let players = [];
-let rafa = { name: "Rafa", victories: 2, draws: 1, defeats: 1, points: 0 };
-let paulo = { name: "Paulo", victories: 1, draws: 1, defeats: 2, points: 0 };
-let gui = { name: "Gui", victories: 5, draws: 2, defeats: 3, points: 0 };
+let starPlatinum = { name: "Star Platinum", victories: 2, draws: 1, defeats: 1, points: 0 };
+let angryV = { name: "Angry V", victories: 1, draws: 1, defeats: 2, points: 0 };
+let silverChariot = { name: "Silver Chariot", victories: 5, draws: 2, defeats: 3, points: 0 };
 
 function addPlayer(player) {
   players.push(player);
@@ -26,9 +26,9 @@ function showPlayersOnScreen(allPlayers) {
         <td>${playerObj.draws}</td>
         <td>${playerObj.defeats}</td>
         <td>${playerObj.points}</td>
-        <td><button onClick="addVictory(${playerIndex})">Vitória</button></td>
-        <td><button onClick="addDraw(${playerIndex})">Empate</button></td>
-        <td><button onClick="addDefeat(${playerIndex})">Derrota</button></td>
+        <td><button onClick="addVictory(${playerIndex})">Victory</button></td>
+        <td><button onClick="addDraw(${playerIndex})">Draw</button></td>
+        <td><button onClick="addDefeat(${playerIndex})">Defeat</button></td>
       </tr>`;
 
     console.log(elementTable);
@@ -53,8 +53,8 @@ function addDefeat(i) {
   showPlayersOnScreen(players);
 }
 
-addPlayer(rafa);
-addPlayer(paulo);
-addPlayer(gui);
+addPlayer(starPlatinum);
+addPlayer(angryV);
+addPlayer(silverChariot);
 
 showPlayersOnScreen(players);
