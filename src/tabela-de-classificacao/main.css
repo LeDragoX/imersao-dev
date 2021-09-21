@@ -48,8 +48,8 @@ body {
 table {
   background: linear-gradient(180deg, #666764 0%, #2f2f2f 32%);
   border: 2px solid #afaa89;
-  border-radius: 1% 1% 1% 1%;
-  border-collapse: collapse;
+  border-radius: 15px;
+  border-collapse: separate;
 }
 
 h1 {
@@ -57,13 +57,19 @@ h1 {
   color: white;
 }
 
-th,
-tr,
-td {
-  border: solid 1px ghostwhite;
+th {
+  border: solid 1px currentColor;
   color: #ded2b8;
 
   text-shadow: 30px;
+}
+
+th:first-child {
+  border-radius: 10px 0px 0px 0px;
+}
+
+th:last-child {
+  border-radius: 0px 10px 0px 0px;
 }
 
 td {
