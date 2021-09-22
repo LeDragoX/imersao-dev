@@ -87,6 +87,7 @@ button {
   background: linear-gradient(180deg, #919191 0%, #404040 50%, #393939 100%);
 }
 
-button:hover {
+button:hover,
+button:active {
   background: linear-gradient(180deg, #808280 0%, #5b5d5b 50%, #4b474b 100%);
 }
