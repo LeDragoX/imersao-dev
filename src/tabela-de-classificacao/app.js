@@ -3,6 +3,38 @@ let starPlatinum = { name: "Star Platinum", victories: 2, draws: 1, defeats: 1, 
 let angryV = { name: "Angry V", victories: 1, draws: 1, defeats: 2, points: 0 };
 let silverChariot = { name: "Silver Chariot", victories: 5, draws: 2, defeats: 3, points: 0 };
 
+// 2. This code loads the IFrame Player API code asynchronously.
+var tag = document.createElement("script");
+
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName("script")[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// 3. This function creates an <iframe> (and YouTube player)
+//    after the API code downloads.
+function onYouTubeIframeAPIReady() {
+  // iframeId parameter should match your Iframe's id attribute
+  var player = new YT.Player("player", {
+    width: 640,
+    height: 360,
+    videoId: "8vb25h_s_kg",
+    events: {
+      onReady: function (event) {
+        event.target.setVolume(10);
+        event.target.playVideo();
+      },
+      onStateChange: function (e) {
+        if (e.data === YT.PlayerState.ENDED) {
+          player.playVideo();
+        }
+      },
+    },
+  });
+
+  // Hide video
+  document.getElementById("player").style.display = "none";
+}
+
 function addPlayer(player) {
   players.push(player);
 }

@@ -10,22 +10,25 @@
     <!-- <script src="app.js"></script> -->
   </head>
   <body>
-    <h1>🏁Chocobo Racing🏁</h1>
-    <img src="../assets/final-fantasy-xiv-fan-kit.png" height="150px" />
+    <div class="container">
+      <h1 class="page-title">🏁Chocobo Racing🏁</h1>
 
-    <table style="width: 100%">
-      <thead>
-        <tr>
-          <th>Player's Chocobo</th>
-          <th>Victories</th>
-          <th>Draws</th>
-          <th>Defeats</th>
-          <th>MGP</th>
-          <th colspan="3">Actions</th>
-        </tr>
-      </thead>
-      <tbody id="tabelaJogadores">
-        <!-- <tr>
+      <img src="../assets/final-fantasy-xiv-fan-kit.png" height="150px" /><br />
+      <div id="player"></div>
+
+      <table style="width: 100%">
+        <thead>
+          <tr>
+            <th>Player's Chocobo</th>
+            <th>Victories</th>
+            <th>Draws</th>
+            <th>Defeats</th>
+            <th>MGP</th>
+            <th colspan="3">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+          <!-- <tr>
           <td>Paulo</td>
           <td></td>
           <td></td>
@@ -45,9 +48,11 @@
           <td><button onClick="adicionarEmpate()">Empate</button></td>
           <td><button onClick="adicionarDerrota()">Derrota</button></td>
         </tr> -->
-      </tbody>
-    </table>
-    <!-- THIS FIXED THE JAVASCRIPT ERROR, PUTTING ON THE FINAL -->
+        </tbody>
+      </table>
+
+      <!-- THIS FIXED THE JAVASCRIPT ERROR, PUTTING ON THE FINAL -->
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
