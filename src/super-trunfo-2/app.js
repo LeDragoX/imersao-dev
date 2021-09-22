@@ -28,10 +28,20 @@ let card3 = {
   },
 };
 
+let card4 = {
+  name: "Giga Chad???",
+  image: "https://c.tenor.com/N9yNDTEPQ5AAAAAM/giga-chad.gif",
+  attributes: {
+    attack: 10,
+    defense: 10,
+    magic: 0,
+  },
+};
+
 let botCard;
 let playerCard;
 
-cards.push(card1, card2, card3);
+cards.push(card1, card2, card3, card4);
 
 function sortearCarta() {
   let randomNumBot = parseInt(Math.random() * cards.length);
@@ -58,7 +68,8 @@ function showPlayerCard() {
   let divPlayerCard = document.getElementById("carta-jogador");
   divPlayerCard.style.backgroundImage = `url(${playerCard.image})`;
 
-  let frame = document.getElementById("img-carta-jogador");
+  document.getElementById("img-carta-jogador").src =
+    "https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png";
   let name = `<p class="carta-subtitle">${playerCard.name}</p>`;
   let tagHTML = `<div id="opcoes-player" class="carta-status"></div>`;
 
@@ -117,7 +128,8 @@ function showBotCard() {
   let divBotCard = document.getElementById("carta-maquina");
   divBotCard.style.backgroundImage = `url(${botCard.image})`;
 
-  let frame = document.getElementById("img-carta-maquina");
+  document.getElementById("img-carta-maquina").src =
+    "https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png";
   let name = `<p class="carta-subtitle">${botCard.name}</p>`;
   let tagHTML = `<div id="opcoes-bot" class="carta-status"></div>`;
 
