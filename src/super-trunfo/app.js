@@ -1,3 +1,34 @@
+let cards = [];
+let card1 = {
+  name: "Sora",
+  attributes: {
+    attack: 7,
+    defense: 8,
+    magic: 7,
+  },
+};
+let card2 = {
+  name: "Riku",
+  attributes: {
+    attack: 8,
+    defense: 9,
+    magic: 6,
+  },
+};
+let card3 = {
+  name: "Mickey",
+  attributes: {
+    attack: 6,
+    defense: 8,
+    magic: 10,
+  },
+};
+
+let botCard;
+let playerCard;
+
+cards.push(card1, card2, card3);
+
 function sortearCarta() {
   let randomNumBot = parseInt(Math.random() * cards.length);
   botCard = cards[randomNumBot];
@@ -30,16 +61,6 @@ function showOptions(playerCard) {
   optionsElem.innerHTML = textOptions;
 }
 
-function getSelectedAttr() {
-  let radioAttrs = document.getElementsByName("attribute");
-
-  for (var i = 0; i < radioAttrs.length; i++) {
-    if (radioAttrs[i].checked == true) {
-      return radioAttrs[i].value;
-    }
-  }
-}
-
 function jogar() {
   let radioAttrs = getSelectedAttr();
   let resultElement = document.getElementById("resultado");
@@ -55,33 +76,12 @@ function jogar() {
   }
 }
 
-let cards = [];
-let card1 = {
-  name: "Sora",
-  attributes: {
-    attack: 7,
-    defense: 8,
-    magic: 7,
-  },
-};
-let card2 = {
-  name: "Riku",
-  attributes: {
-    attack: 8,
-    defense: 9,
-    magic: 6,
-  },
-};
-let card3 = {
-  name: "Mickey",
-  attributes: {
-    attack: 6,
-    defense: 8,
-    magic: 10,
-  },
-};
+function getSelectedAttr() {
+  let radioAttrs = document.getElementsByName("attribute");
 
-let botCard;
-let playerCard;
-
-cards.push(card1, card2, card3);
+  for (var i = 0; i < radioAttrs.length; i++) {
+    if (radioAttrs[i].checked == true) {
+      return radioAttrs[i].value;
+    }
+  }
+}
