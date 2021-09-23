@@ -14,3 +14,4 @@ Link de acesso: [https://ledragox.github.io/imersao-dev-2021/](https://ledragox.
 | ⭐ _Tabela de Classificação (FFXIV) (20/09)_ | [>> Link <<](./src/tabela-de-classificacao/) |
 |                       _Super Trunfo (21/09)_ |      [>> Link <<](./src/super-trunfo/)       |
 |                   _Super Trunfo 2.0 (22/09)_ |     [>> Link <<](./src/super-trunfo-2/)      |
+|                        _Certificard (23/09)_ |       [>> Link <<](./src/certificard/)       |
