@@ -15,12 +15,17 @@ body {
   box-shadow: 6px 6px 6px #0e1d2f;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .profile {
   display: flex;
-  align-items: center;
 }
 
 .profile-photo {
+  align-self: flex-start;
   max-height: 160px;
   border-radius: 50%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -40,27 +45,72 @@ body {
   font-size: 24px;
 }
 
+.title p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  word-spacing: 10px;
+}
+
+.theme button {
+  align-self: flex-end;
+  background: ghostwhite;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 8px 16px;
+
+  font-size: 24px;
+  font-weight: 400;
+}
+
 .projects,
 .projects a:visited {
-  font-weight: 400;
-  font-size: 24px;
   color: #1c1c1c;
   background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
   box-shadow: 6px 6px 6px #0e1d2f;
 
-  margin-top: 20px;
+  margin-top: 32px;
   border-radius: 20px;
+  padding: 32px;
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.projects ul li {
-  list-style-type: none;
-  text-indent: 30px;
+.projects-title b {
+  font-size: 36px;
+  font-weight: 700;
 }
 
-.projects ul li a {
+.projects-title li {
+  list-style-type: none;
+  text-indent: 30px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32pt;
+}
+
+.projects-title li a {
   text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+}
+
+.dark .title {
+  color: #f7f7f7;
+}
+
+.dark button {
+  background: #1c1c1c;
+  color: ghostwhite;
+  border: 2px solid #f7f7f7;
 }
