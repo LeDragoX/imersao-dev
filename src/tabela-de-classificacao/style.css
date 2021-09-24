@@ -82,6 +82,7 @@ button {
   color: #ffffff;
   font-size: 14pt;
 
+  border-style: solid;
   border-radius: 25px;
   border-color: #202020;
   background: linear-gradient(180deg, #919191 0%, #404040 50%, #393939 100%);
