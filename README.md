@@ -1,10 +1,8 @@
-# imersao-dev-2021
+# Imersão dev 2021
 
 Imersão Dev da Alura em 2021, onde aprendo Desenvolvimento Web para iniciantes.
 
 Link de acesso: [https://ledragox.github.io/imersao-dev-2021/](https://ledragox.github.io/imersao-dev-2021/)
-
-<div align="center">
 
 | Projeto                              |   Data   | Link                                         |
 | :----------------------------------- | :------: | :------------------------------------------- |
@@ -17,5 +15,3 @@ Link de acesso: [https://ledragox.github.io/imersao-dev-2021/](https://ledragox.
 | _Super Trunfo_                       |  21/09   | [>> Link <<](./src/super-trunfo/)            |
 | _Super Trunfo 2.0_                   |  22/09   | [>> Link <<](./src/super-trunfo-2/)          |
 | _Certificard_                        | 23-24/09 | [>> Link <<](./src/certificard/)             |
-
-</div>
